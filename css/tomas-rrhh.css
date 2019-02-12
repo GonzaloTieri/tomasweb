@@ -1,0 +1,16 @@
+.encabezado-rrhh {
+    background: url(../img/home/transparencia-slide.png), url(../img/rrhh/foto-encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rrhh-section {
+ 
+}
+
+.card-tomas {
+    background-color: white;
+    
+}
+

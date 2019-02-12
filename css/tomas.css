@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:200,300,500,700');
+
+body, p, h1, h2, h3, h4,a, button {
+    font-family: 'Catamaran', sans-serif!important;
+}
+body {
+    overflow-x: hidden;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 500;
+    color: white;
+}
+.bg-dark {
+    background: #333333!important;
+}
+.img-fluid {
+    width: 100%;
+}
+.dropdown-menu {
+    background-color: #333333!important;
+    color:white!important
+}
+.dropdown-item {
+    color:white!important
+}
+.dropdown-item:hover {
+    background-color: #333333!important;
+    color:white!important
+}
+.section-one {
+    height: 100%;
+    width: 75%;
+    background: #333333;
+    position: relative;
+    transform: skewX(-9deg);
+    z-index: 1;
+    transition: width 0.5s;
+}
+.section-one:before {
+    content: "";
+  height: 100%;
+  position: absolute;
+  background: #333333;
+  top: 0;
+  left: 0;
+  transform: skewX(9deg);
+  z-index: -1;
+}
+.section-two {
+    height: 100%;
+     width: 25%;
+    background: #525659;
+    transform: skewX(-9deg);
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 1;
+    transition: width 0.5s;
+  }
+  .section-two:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    background: #525659;
+    bottom: 0;
+    right: 0;
+    transform: skewX(9deg);
+    z-index: -1;
+  }
+  
+  .section-one li, .section-two li {
+    transform: skewX(9deg);
+    padding: 10px 5px;
+    color: #fff;
+    text-align: center;
+  }
+
+.transparencia-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.acceso-extranet a {
+    color: white
+}
+.carousel-caption {
+    left: 10%;
+    bottom: 45%;
+    text-align: left;
+}
+.carousel-caption h3, .carousel-caption p {
+    font-size: 50px;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 50px;
+}
+.carousel-caption p {
+    font-weight: 200
+}
+.lideres {
+    background: url(../img/home/iso-tomas-agua.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.titulo {
+    font-size: 50px;
+    font-weight: 700!important;
+}
+.text-green {
+    color: #009f72;
+}
+.text-yellow {
+    color: #f2b447;
+}
+.back-green {
+    background: #009f72;
+}
+.big {
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 47px;
+}
+.btn-outline-white,
+.btn-outline-success {
+    border-color: #009f72;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.btn-outline-white,
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #009f72;
+    border-color: #009f72;
+}
+.btn-outline-white, .btn-outline-white:hover {
+    border-color: white;
+}
+.btn-outline-white:hover {
+    color: #009f72!important;
+    background-color: #fff;
+}
+area:hover {
+    background-color: black;
+}
+.video-caption {
+    left: 10%;
+    bottom: 5%;
+    text-align: left;
+}
+.video-caption h3, .video-caption p {
+    font-size: 41px;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 50px;
+}
+.video-caption p {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+}
+.video-caption .small {
+    font-size: 16px;
+    line-height: 16px;
+}
+.news-title {
+    font-size: 22px;
+    font-weight: 700;
+    color:white;
+    text-align: left;
+    margin-top:2rem;
+}
+.news-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    text-align: left;
+    width: 80%;
+
+}
+
+.slick-next, .slick-prev {
+    background-color: transparent!important;
+    font-size: 0;
+    border: none
+
+}
+.slick-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.slick-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.slick-prev:before, .slick-next:before { 
+    font-size: 20px; 
+    line-height: 1; 
+    color: white;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    font-family: "Font Awesome 5 Free";
+    content: "\f053";
+    display: inline-block;
+    padding: 4px 8px;
+    vertical-align: middle;
+    font-weight: 700;
+    border: 3px solid white;
+    border-radius: 21px;
+
+}   
+
+.slick-prev:before { content: "\f053"; }
+[dir="rtl"] .slick-prev:before { content: "\f054"; }
+
+[dir="rtl"] .slick-next { left: -10px; top: 70px; right: auto; }
+.slick-next:before { content: "\f054"; }
+[dir="rtl"] .slick-next:before { content: "\f053"; }
+
+.ctt {
+    background: url(../img/home/fondo-ctt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fecha-container {
+    background-color: #545454;
+    border-radius: 50%;
+    width: 120px;
+    padding: 5px 21px 1px;
+    margin-left: auto;
+}
+.fecha-numero {
+    font-size: 81px;
+    font-weight: 700;
+    line-height: 81px;
+    margin-bottom: 0;
+}
+.fecha-mes {
+    font-size: 21px;
+    font-weight: 200;
+    margin-top: -15px;
+}
+.titulo-bold {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 21px;
+    color: white;
+}
+.texto-chico, .link {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 21px; 
+    color: white;
+}
+.link:hover {
+    text-decoration: none;
+}
+.link {
+    float: right;
+}
+.fotos-tomas-news-items .news-title {
+    margin-top: -70px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.titulo-section {
+    font-size: 39px;
+    font-weight: 800;
+    line-height: 24px;
+    color: white;
+}

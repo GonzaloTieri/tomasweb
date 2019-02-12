@@ -1,0 +1,65 @@
+.encabezado-empresa {
+    background: url(../img/home/transparencia-slide.png), url(../img/empresa/foto-encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background-verde {
+    background: url(../img/home/transparencia-slide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fortaleza-title {
+    font-size: 22px;
+    font-weight: 700;
+    color:#009f72;
+    text-align: left;
+    margin-top:2rem;
+}
+.fortaleza-item {
+    font-size: 16px;
+    font-weight: 700;
+    color:black;
+    text-align: left;
+    width: 80%;
+}
+
+.tomas-en-numeros {
+    background: url(../img/empresa/fondo-tomas-numeros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.cometario-globo {
+    background: url(../img/empresa/bg-titulo-tomas-numeros.png);    
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    padding: 20px;
+    top: -43px;
+}
+
+.section-numeros .col-3 p:first-child {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+
+.section-numeros .col-3 p:nth-child(2) {
+    font-size: 16px;
+    
+    color: white;
+    text-align: center;
+}
+
+.section-numeros span {
+    font-size: 25px;
+}
