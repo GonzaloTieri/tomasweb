@@ -3,6 +3,9 @@
 body, p, h1, h2, h3, h4,a, button {
     font-family: 'Catamaran', sans-serif!important;
 }
+h4 {
+    font-weight: 200;
+}
 body {
     overflow-x: hidden;
 }
@@ -75,6 +78,11 @@ body {
     text-align: center;
   }
 
+  .section-two li {
+    top: 10px;
+    position: relative;
+  }
+
 .transparencia-slide {
     position: absolute;
     top: 0;
@@ -96,7 +104,21 @@ body {
     line-height: 50px;
 }
 .carousel-caption p {
-    font-weight: 200
+    font-weight: 200;
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+}
+.carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    border: solid 2px white;
+    background: none;
+    border-radius: 50%;
+    display: inline-block;
+}
+.carousel-indicators .active{
+    background-color: #fff;
 }
 .lideres {
     background: url(../img/home/iso-tomas-agua.png);
@@ -107,8 +129,14 @@ body {
     font-size: 50px;
     font-weight: 700!important;
 }
+.active {
+    color: #008e69!important;
+}
 .text-green {
-    color: #009f72;
+    color: #008e69!important;
+}
+.nav-link.text-green a{
+    color: #008e69;
 }
 .text-yellow {
     color: #f2b447;
@@ -123,22 +151,27 @@ body {
 }
 .btn-outline-white,
 .btn-outline-success {
-    border-color: #009f72;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 16px;
+    padding: .375rem 1.8rem;
 }
-.btn-outline-white,
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #009f72;
-    border-color: #009f72;
+
+.btn-outline-success {
+    border-color: #2C8D6B;
 }
-.btn-outline-white, .btn-outline-white:hover {
+
+.btn-outline-white {
     border-color: white;
 }
 .btn-outline-white:hover {
-    color: #009f72!important;
+    color: #333!important;
     background-color: #fff;
+}
+
+.btn-outline-success:hover{
+    color: white!important;
+    background-color: #2C8D6B;
+
 }
 area:hover {
     background-color: black;
@@ -175,8 +208,6 @@ area:hover {
     font-weight: 400;
     color:white;
     text-align: left;
-    width: 80%;
-
 }
 
 .slick-next, .slick-prev {
@@ -274,3 +305,22 @@ area:hover {
     line-height: 24px;
     color: white;
 }
+
+@media (min-width: 992px) {
+    .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+        height: 80px;
+    }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
