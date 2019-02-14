@@ -10,3 +10,39 @@
 .card-tomas {
     background-color: #e9ecef;
 }
+
+
+.links-impositiva {
+    margin: 30px;
+    width: 370px;
+    background-color: #e9ecef;
+    border-left: solid 10px #2C8D6B;
+    position: relative;
+    display: inline-block;
+    padding: 24px 0 20px 18px;
+    color: #2C8D6B;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  .links-impositiva span {
+    position: absolute;
+    right: -43px;
+    content: "";
+    top: 0;
+    border-top: 50px solid transparent;
+    border-right: 20px solid grey;
+    border-bottom: 25px solid grey;
+    border-left: 10px solid transparent;
+  }
+  
+  .links-impositiva:after {
+    position: absolute;
+    right: -35px;
+    content: "";
+    top: 0;
+    border-bottom: 50px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 25px solid #e9ecef;
+    border-left: 25px solid #e9ecef;
+  }
