@@ -105,9 +105,7 @@ body {
 }
 .carousel-caption p {
     font-weight: 200;
-    padding: 0;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 3rem;
 }
 .carousel-indicators li {
     height: 15px;
@@ -133,10 +131,10 @@ body {
     color: #008e69!important;
 }
 .text-green {
-    color: #008e69!important;
+    color: #2C8D6B!important;
 }
 .nav-link.text-green a{
-    color: #008e69;
+    color: #2C8D6B;
 }
 .text-yellow {
     color: #f2b447;

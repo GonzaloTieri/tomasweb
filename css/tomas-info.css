@@ -1,3 +1,13 @@
+.encabezado-info {
+    background: url(../img/home/transparencia-slide.png), url(../img/info-tomas/foto-encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron {
+    background-color: white;
+}
 .info-tomas p {
     font-weight: 200;
 }
@@ -38,11 +48,13 @@
 }
 
 .fas{
-    font-weight: 900;
+   /* font-weight: 900;
     color: white;
     left: -40px;
     position: relative;
+    */
 }
+
 .centered {
     display: flex;
     justify-content: center;
@@ -51,11 +63,6 @@
 
 .info-tomas p.search-box {
     font-size: 16px;
-}
-
-.pr-lg-0, .px-lg-0 {
-    padding-right: 0!important;
-    padding-left: 0!important;
 }
 
 .info-tomas p{
@@ -70,16 +77,16 @@ p.news-title {
     font-size: 26px;
     line-height: 26px;
 }
+
 p.news-desc {
     color:#333;
-    
 }
+
 .text-center {
     flex-grow: inherit;
     text-align: center!important;
 }
 
-/* Bottom left text */
 .bottom-left {
     position: absolute;
     bottom: 0px;
@@ -88,3 +95,81 @@ p.news-desc {
     font-weight: 800!important;
     line-height: 30px;
   }
+
+  .text-entered {
+    font-size: 3rem;
+    margin-bottom: 60px;
+  }
+
+ .search-results {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.search-results p{
+    margin: 0;
+}
+
+.search-results p.search-date {
+    color: #2C8D6B;
+    font-size: 22px;
+    font-weight: 400;
+}
+.search-results p.search-pretitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+.search-results p.search-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+.search-results p.search-info {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.search-results p.search-info span{
+    color: #2C8D6B;
+}
+
+.line {
+    border-bottom: solid 2px #333;
+}
+
+.press-links {
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+.press-links a{
+    color: #333;
+}
+ .press-links a:hover{
+    color: #2C8D6B;
+    text-decoration: none;
+}
+
+.logos {
+    background-color: #e9ecef;
+    color: #333;
+    padding: 20px;
+    margin-right: 10px;
+    min-width: 260px;
+    display: -webkit-inline-box;
+}
+
+.logos:hover {
+    background-color: #2C8D6B;
+    color: white;
+}
+
+.logos .fas{
+    color: grey;
+    font-size: 1.5rem;
+    margin-right: 14px;
+}
+
+.logos:hover .fas{
+    color:white;
+}
