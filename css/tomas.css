@@ -32,7 +32,7 @@ body {
 }
 .section-one {
     height: 100%;
-    width: 75%;
+    width: 74%;
     background: #333333;
     position: relative;
     transform: skewX(-9deg);
@@ -51,7 +51,7 @@ body {
 }
 .section-two {
     height: 100%;
-     width: 25%;
+     width: 14%;
     background: #525659;
     transform: skewX(-9deg);
     position: absolute;
@@ -322,3 +322,10 @@ area:hover {
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: white;
   }
+
+  .section-back-white {
+    background-color: white;
+}
+.card-tomas {
+    background-color: #e9ecef;
+}
