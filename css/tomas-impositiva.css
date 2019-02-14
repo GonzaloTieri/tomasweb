@@ -1,0 +1,9 @@
+.encabezado-impositiva {
+    background: url(../img/home/transparencia-slide.png), url(../img/info-impositiva/foto-encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-back-white {
+    background-color: white;
+}
