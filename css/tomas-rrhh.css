@@ -5,10 +5,29 @@
     background-position: center;
 }
 
-
-.card-tomas:hover {
-    background-color: #008e69;
-    color: white;   
+.card-rrhh {
+    background: url(../img/rrhh/iso-busquedas-activas.png) #e9ecef no-repeat bottom right;
+    padding: 20px 10px 0 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 0%;
 }
+
+.card-rrhh:before {
+    background-color: #2C8D6B;
+    content: "";
+    width: 10px;
+    height: 62px;
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.card-rrhh a{
+    color: #2C8D6B;
+}
+
+
 
 
