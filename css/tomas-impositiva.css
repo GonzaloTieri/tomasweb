@@ -1,43 +1,100 @@
 .encabezado-impositiva {
-    background: url(../img/home/transparencia-slide.png), url(../img/multiservicios/foto-encabezado.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background: url(../img/home/transparencia-slide.png), url(../img/multiservicios/foto-encabezado.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.section-back-white {
-    background-color: white;
-}
-.links-impositiva {
-    margin: 30px;
-    width: 370px;
-    background-color: #e9ecef;
-    border-left: solid 10px #2C8D6B;
-    position: relative;
-    display: inline-block;
-    padding: 24px 0 20px 18px;
-    color: #2C8D6B;
-    font-weight: 800;
-    font-size: 20px;
-  }
 
-  .links-impositiva span {
-    position: absolute;
-    right: -43px;
-    content: "";
-    top: 0;
-    border-top: 50px solid transparent;
-    border-right: 20px solid grey;
-    border-bottom: 25px solid grey;
-    border-left: 10px solid transparent;
-  }
-  
-  .links-impositiva:after {
-    position: absolute;
-    right: -35px;
-    content: "";
-    top: 0;
-    border-bottom: 50px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 25px solid #e9ecef;
-    border-left: 25px solid #e9ecef;
-  }
+.section-back-white {
+  background-color: white;
+}
+
+.card-tomas {
+  border-radius: 0%;
+  border: none;
+ }
+
+.card-body {
+  padding-bottom: .6rem;  
+}
+ 
+.card-body .col-1 {
+  padding: .8rem;
+  color: #c9c9c9;
+}
+
+.card-body .col-1:hover {
+  color: #2C8D6B;
+}
+
+.card-small {
+  line-height: 16px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding-right: 16px;
+}
+
+.links-impositiva {
+  position: relative;
+  display: inline-block;
+  color: #2C8D6B;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.links-impositiva-left {
+  width: 370px;
+  background-color: #e9ecef;
+  border-left: solid 10px #2C8D6B;
+  padding: 24px 0 20px 18px;
+  display: inline-block;
+}
+
+.links-impositiva-left:after {
+  position: absolute;
+  right: 76px;
+  content: "";
+  top: 6px;
+  border-top: 37px solid #e9ecef;
+  border-left: 0 solid #e9ecef;
+  border-right: 16px solid #e9ecef;
+  border-bottom: 37px solid #e9ecef;
+  transform-origin: bottom left;
+  -ms-transform: skew(-30deg, 0deg);
+  -webkit-transform: skew(-30deg, 0deg);
+  transform: skew(-12deg, 0deg);
+}
+
+.links-impositiva-right:before {
+  position: absolute;
+  right: 69px;
+  content: "";
+  top: 0px;
+  border-top: 37px solid #c9c9c9;
+  border-left: 0 solid #c9c9c9;
+  border-right: 16px solid #c9c9c9;
+  border-bottom: 37px solid #c9c9c9;
+  transform-origin: bottom left;
+  -ms-transform: skew(-30deg, 0deg);
+  -webkit-transform: skew(-30deg, 0deg);
+  transform: skew(-12deg, 0deg);
+}
+
+.links-impositiva-right {
+  width: 70px;
+  background-color: #c9c9c9;
+  position: relative;
+  display: inline-block;
+  padding: 17px 0 9px 15px;
+  color: white;
+  font-weight: 800;
+  font-size: 32px;
+  left: 14px;
+  height: 74px;
+  top: 6px;
+}
+
+.links-impositiva-right:hover{
+  color: #2C8D6B;
+}
