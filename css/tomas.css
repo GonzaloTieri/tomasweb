@@ -137,6 +137,10 @@ body {
 .active {
     color: #008e69!important;
 }
+.dropdown-item.active, .dropdown-item:active {
+    text-decoration: none;
+    background-color: #333333!important;
+}
 .text-green {
     color: #2C8D6B!important;
 }
@@ -343,6 +347,7 @@ area:hover {
     background-color: #e9ecef;
 }
 
+/*
 .navbar-default .navbar-nav > li.dropdown:hover > a, 
 .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
 .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
@@ -352,3 +357,4 @@ area:hover {
 li.dropdown:hover > .dropdown-menu {
     display: block;
 }
+*/

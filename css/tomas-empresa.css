@@ -45,7 +45,7 @@
     top: -43px;
 }
 
-.section-numeros .col-3 p:first-child {
+.section-numeros .col-lg-3 p:first-child, .section-numeros .col-6 p:first-child {
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 0px;
@@ -53,7 +53,7 @@
     text-align: center;
 }
 
-.section-numeros .col-3 p:nth-child(2) {
+.section-numeros .col-lg-3 p:nth-child(2), .section-numeros .col-6 p:nth-child(2) {
     font-size: 16px;
     
     color: white;
