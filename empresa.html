@@ -18,7 +18,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg fixed-top p-0">
-    <div class="container-fluid  navbar-dark bg-dark main-nav">
+    <div class="container-fluid navbar-dark bg-dark main-nav">
       <a class="navbar-brand pull mr-auto" href="#">
         <img src="img/home/logo-tomas.png" alt="">
       </a>
@@ -61,18 +61,21 @@
               <a class="nav-link ac" href="sucursales.html">SUCURSALES</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link ac d-lg-none" href="#">ACCESO EXTRANET</a>
+            </li>
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-twitter-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-facebook-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-linkedin-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-youtube-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#"><img src="img/home/ico-buscador-encabezado.png" alt=""></a>
             </li>
           </ul>
@@ -89,31 +92,31 @@
   </nav>
 
   <div class="jumbotron jumbotron-fluid px-0 mx-0 pb-0 my-0">
-      <div class="container-fluid px-lg-0">
+      <div class="container-fluid px-0">
         
-          <section class="encabezado-empresa p-lg-5">          
-            <div class="row  mt-5">
-              <div class="col m-3">  
-                <h1 class="font-weight-bold" style="color:white;">Nuestra Empresa</h1>
+          <section class="encabezado-empresa p-5">          
+            <div class="row m-lg-5">
+              <div class="col">  
+                <h1 class="titulo-section">Nuestra Empresa</h1>
                 <p class="d-none d-md-block d-lg-block texto-chico w-50">Un equipo de profesionales altamente calificados para brindar soluciones integrales a su negocio.</p>
               </div>
             </div>
         </section>
 
-        <section class="lideres section-back-white py-4 pl-lg-5">
+        <section class="lideres container-fluid section-back-white py-4 pl-lg-5 ">
           <div class="row m-lg-5">
             <div class="col-12 col-lg-6">
               <h4>Nacimos como <span class="titulo-bold text-green">empresa familiar</span> hace más de 120 años… Hoy nos reconocemos líderes en multiservicios
                  para el agro, con propuestas integrales y a medida para cada instancia del ciclo agrícola.
               </h4>
               <p class="pt-3"> 
-                  <span class="d-block titulo-bold text-green">Una empresa centenaria de capitales nacionales</span>
+                  <span class="d-block titulo-bold text-green mb-3">Una empresa centenaria de capitales nacionales</span>
                 Nacimos a fines de la década de 1880, cuando Saturnino Llorente instala la Casa de Ramos Generales “Llorente Hermanos” en el Pueblo Maya (hoy Carlos Casares). 
                 En 1902 Manuel Tomás se incorpora a la Casa Llorente y para 1921 Aurelio y Álvaro Tomás  se suman a la empresa. En la década del 40 la firma deviene en Llorente, Tomás y Cia. SRL., y para  1946 la familia Llorente se retira de la empresa, que pasa a llamarse Tomás Hnos y Cia SRL.
                 Recién en 1960, cambia su razón social por Tomás Hnos. y Cia. SA.
               </p>
               <p class="">
-                  <span class="d-block titulo-bold text-green">La innovación </span>
+                  <span class="d-block titulo-bold text-green mb-3">La innovación </span>
                 Para la década del ´80, Carlos Borla –actual presidente- se suma a la 
                 empresa ante una demanda puntual y por un período de 6 meses. Rápidamente descubre
                  en la empresa un potencial enorme y realiza una serie de cambios estructurales que 
@@ -121,7 +124,7 @@
               </p>
               
               <p class="">
-                  <span class="d-block titulo-bold text-green">El liderazgo</span>
+                  <span class="d-block titulo-bold text-green mb-3">El liderazgo</span>
                 Con la llegada del nuevo milenio, la empresa decide reposicionarse dentro del
                   sector. En palabras de Carlos Borla: <b> “Buscamos reconvertirnos desde nuestra propia historia, 
                   la historia de más de 120 años de confianza y relacionamiento directo con nuestros
@@ -131,7 +134,7 @@
             </div>
             <div class="col-12 col-lg-6">
               
-                  <img class="img-fluid" src="./img/empresa/foto-empleados.jpg" />
+                  <img class="img-fluid mb-3" src="./img/empresa/foto-empleados.jpg" />
                   <div class="mt-lg-5">
                       <p class="titulo-bold-black text-green">Nuestras fortalezas:</p>
                       <p class="titulo-bold-black">Profesionalismo</p>
@@ -146,8 +149,8 @@
         </section>
         <section class="tomas-en-numeros d-none d-md-block d-lg-block pl-lg-5">
           <div class="cometario-globo ml-lg-5">
-            <p class="titulo-section">Tomás</p>
-            <p class="titulo-section">en números </p>
+            <p>Tomás</p>
+            <p>en números </p>
           </div>
 
 
@@ -223,10 +226,7 @@
           </div>
           
         </section>
-
-    </div>
-      
-     
+        <div class="container-fluid px-lg-0 px-rg-0">
       <footer class="bg-dark p-lg-5">
         <div class="row">
           <div class="col-lg-3">
@@ -244,10 +244,8 @@
           </div>
         </div>
       </footer>
-    
-    
-
-
+    </div>
+    </div>
   </div>
   
 

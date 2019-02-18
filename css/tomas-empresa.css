@@ -32,7 +32,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 
 .cometario-globo {
@@ -45,6 +44,13 @@
     top: -43px;
 }
 
+.cometario-globo p{
+    color: white;
+    font-size: 36px;
+    line-height: 18px;
+    font-weight: 800;
+    padding-top: 4px;
+}
 .section-numeros .col-lg-3 p:first-child, .section-numeros .col-6 p:first-child {
     font-size: 50px;
     font-weight: 800;
