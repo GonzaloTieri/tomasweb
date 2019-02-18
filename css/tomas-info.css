@@ -3,6 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 .jumbotron {
@@ -146,7 +147,8 @@ p.news-desc {
 .press-links a{
     color: #333;
 }
- .press-links a:hover{
+
+.press-links a:hover{
     color: #2C8D6B;
     text-decoration: none;
 }
@@ -163,6 +165,9 @@ p.news-desc {
 .logos:hover {
     background-color: #2C8D6B;
     color: white;
+    -webkit-transition: background-color 400ms linear;
+        -ms-transition: background-color 400ms linear;
+            transition: background-color 400ms linear;
 }
 
 .logos .fas{

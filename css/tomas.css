@@ -77,13 +77,11 @@ body {
     transform: skewX(9deg);
     z-index: -1;
   }
-  
-  .section-one li, .section-two li {
+ .section-one li, .section-two li {
     padding: 10px 3px 10px 20px;
     color: #FFF;
     border-top: solid white 1px;
 }
-
   .section-two li {
     top: 10px;
     position: relative;
@@ -129,6 +127,13 @@ body {
 }
 .carousel-indicators .active{
     background-color: #fff;
+}
+.contents{
+    display: contents;
+
+}
+.jumbotron {
+    padding: 5rem 0rem;
 }
 .lideres {
     background: url(../img/home/iso-tomas-agua.png);
@@ -256,7 +261,6 @@ area:hover {
     font-weight: 700;
     border: 3px solid white;
     border-radius: 21px;
-
 }   
 
 .slick-prev:before { content: "\f053"; }
@@ -303,9 +307,9 @@ area:hover {
     color: black;
 }
 .texto-chico, .link {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 200;
-    line-height: 21px; 
+    line-height: 22px;
     color: white;
 }
 .link:hover {
