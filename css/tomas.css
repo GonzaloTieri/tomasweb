@@ -13,6 +13,9 @@ body {
     font-weight: 500;
     color: white;
 }
+.navbar-dark .navbar-nav .nav-link img:hover{
+    opacity: 0.8;
+}
 .bg-dark {
     background: #333333!important;
 }
@@ -30,12 +33,17 @@ body {
     background-color: #333!important;
     color:white!important
 }
+.navbar-dark .navbar-brand {
+    padding: 20px;
+}
+.navbar-dark .navbar-toggler {
+    border:none;
+}
 .section-one {
     height: 100%;
-    width: 80%;
+    width: 100%;
     background: #333;
     position: relative;
-    transform: skewX(-9deg);
     z-index: 1;
     transition: width 0.5s;
 }
@@ -46,7 +54,6 @@ body {
     background: #333;
     top: 0;
     left: 0;
-    transform: skewX(9deg);
     z-index: -1;
 }
 .section-two {
@@ -72,11 +79,10 @@ body {
   }
   
   .section-one li, .section-two li {
-    transform: skewX(9deg);
-    padding: 10px 3px;
+    padding: 10px 3px 10px 20px;
     color: #FFF;
-    text-align: center;
-  }
+    border-top: solid white 1px;
+}
 
   .section-two li {
     top: 10px;
@@ -358,3 +364,25 @@ li.dropdown:hover > .dropdown-menu {
     display: block;
 }
 */
+
+@media (min-width: 992px) {
+    .section-one li, .section-two li {
+        padding: 10px 3px;
+        border-top: none;
+    }
+    .section-one {
+        height: 100%;
+        width: 80%;
+        position: relative;
+        transform: skewX(-9deg);
+        z-index: 1;
+        transition: width 0.5s;
+        color: lightcoral;
+    }
+    .section-one:before {
+        transform: skewX(9deg);
+    }
+    .section-one li, .section-two li {
+        transform: skewX(9deg);
+    }
+}
