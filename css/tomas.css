@@ -3,9 +3,8 @@
 body, p, h1, h2, h3, h4,a, button {
     font-family: 'Catamaran', sans-serif!important;
 }
-h4 {
-    font-weight: 200;
-}
+
+
 body {
     overflow-x: hidden;
 }

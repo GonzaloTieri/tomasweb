@@ -19,7 +19,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg fixed-top p-0">
-    <div class="container-fluid  navbar-dark bg-dark main-nav">
+    <div class="container-fluid navbar-dark bg-dark main-nav">
       <a class="navbar-brand pull mr-auto" href="#">
         <img src="img/home/logo-tomas.png" alt="">
       </a>
@@ -34,19 +34,19 @@
                 <a class="nav-link" href="index.html">INICIO</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 EMPRESA
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="empresa.html">EMPRESA</a>
+                <a class="dropdown-item " href="empresa.html">EMPRESA</a>
                 <a class="dropdown-item" href="impositiva.html">INFO IMPOSITIVA</a>
                 <a class="dropdown-item" href="rrhh.html">RRHH</a>
                 <a class="dropdown-item" href="empresa.html">CONTACTO</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="multiservicios.html">MULTISERVICIOS</a>
+              <a class="nav-link" href="multiservicios.html">MULTISERVICIOS</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -54,31 +54,34 @@
                 INFO TOMÁS
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item active " href="info.html">INFO</a>
-                <a class="dropdown-item " href="prensa.html">PRENSA</a>
+                <a class="dropdown-item active" href="info.html">INFO</a>
+                <a class="dropdown-item" href="prensa.html">PRENSA</a>
               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link ac" href="sucursales.html">SUCURSALES</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link ac d-lg-none" href="#">ACCESO EXTRANET</a>
+            </li>
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-twitter-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-facebook-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-linkedin-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-youtube-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#"><img src="img/home/ico-buscador-encabezado.png" alt=""></a>
             </li>
           </ul>
         </div>
-        <div class="section-two">
+        <div class="section-two d-none d-md-block d-lg-block">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">ACCESO EXTRANET</a>
@@ -88,34 +91,32 @@
       </div>
     </div>
   </nav>
+
   <div class="jumbotron jumbotron-fluid px-0 mx-0 pb-0 my-0">
-    <div class="container-fluid px-lg-0">
+    <div class="container-fluid px-0">
      
-      <section class="encabezado-info p-lg-5">          
+      <section class="encabezado-info p-5">          
         <div class="row m-lg-5">
-            <div class="col">    
-              <p class="titulo-section">Info Tomás</p>
-              <p class="texto-chico w-50">Somos personas de acción y de palabra. Nada nos define mejor que nuestras propias comunicaciones estratégicas</p>
+            <div class="col">
+              <h1 class="font-weight-bold w-50" style="color:white;">Info Tomás</h1>
+              <p class="d-none d-md-block d-lg-block texto-chico w-50">Somos personas de acción y de palabra. Nada nos define mejor que nuestras propias comunicaciones estratégicas</p>
             </div>
           </div>
       </section>
-   
-    </div>
-    <div class="container-fluid px-lg-0 px-rg-0">
 
-        <section class="info-tomas bg-dark py-4 px-lg-5">
-            <div class="row ml-lg-5">
-              <div class="col">
-                <h4 class="text-white">Encontrá la información que buscás.</h4>
-              </div>
-              <div class="col">
-                <input type="text" class="search-box" id="search-box" placeholder="Ingresar palabra clave">
-                <span class="fas fa-search"></span>
-              </div>
+      <section class="info-tomas bg-dark container-fluid py-3 pl-lg-5">
+          <div class="row ml-lg-5">
+            <div class="col-12 col-lg-6">
+              <h5 class="text-white">Encontrá la información que buscás.</h5>
             </div>
-        </section>
+            <div class="col-12 col-lg-6">
+              <input type="text" class="search-box" id="search-box" placeholder="Ingresar palabra clave">
+              <span class="fas fa-search"></span>
+            </div>
+          </div>
+      </section>
 
-      <section class="info-tomas py-4 px-lg-5 ml-lg-5" >
+      <section class="info-tomas container-fluid py-4 px-lg-5 ml-lg-5" >
         <div class="row">
           <div class="col">
             <h1 class="text-green font-weight-bold">Resultado de la búsqueda </h1>
@@ -162,7 +163,7 @@
 
 
       <footer class="bg-dark p-lg-5">
-        <div class="row">
+        <div class="row px-0 mx-0">
           <div class="col-lg-3">
             <img src="img/home/logo-tomas-pie.png" alt="">
           </div>
