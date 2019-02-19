@@ -1,0 +1,116 @@
+.encabezado-sucursales {
+    background: url(../img/home/transparencia-slide.png), url(../img/sucursales/foto-encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.links-impositiva-left {
+  background: url(../img/sucursales/hotpoint.png) no-repeat 20px 20px;
+  width: 36%;
+  background-color: #2C8D6B;
+  padding: 0px 0 20px 20px;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 26px;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  float: left;
+  height: 264px;
+  background-size: 25%;
+  position: relative;
+  }
+  
+
+
+  .links-impositiva-left h2{
+    color: white;
+    font-weight: 800;
+    font-size: .8rem;
+    padding-top: 80px;
+  }
+  
+  .links-impositiva-left h2 span{
+    font-weight: 400;
+  }
+
+  .links-impositiva-right {
+    background-color: #009F72;
+    position: relative;
+    display: inline-block;
+    padding: 20px 0 10px 20px;
+    width: 68%;
+    height: 264px;
+    background-color: #009F72;
+    position: relative;
+    display: inline-block;
+  }
+
+  .links-impositiva-right p{
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 18px;
+  }
+ 
+  @media (min-width: 992px) {
+    .links-impositiva-left {
+      background-size: auto;
+      height: 172px;
+    }
+    .links-impositiva-left h2{
+      font-size: 1.5rem;
+      padding-top: 94px;
+    }
+    .links-impositiva-left:after {
+      position: absolute;
+      /* left: 30%; */
+      content: "";
+      top: 0px;
+      border-top: 37px solid #2C8D6B;
+      border-left: 0 solid #2C8D6B;
+      border-right: 16px solid #2C8D6B;
+      border-bottom: 35px solid #2C8D6B;
+      border-top: 155px solid #2C8D6B;
+      border-left: 0 solid #2C8D6B;
+      border-right: 46px solid #2C8D6B;
+      border-bottom: 17px solid #2C8D6B;
+      transform-origin: bottom left;
+      -ms-transform: skew(-30deg, 0deg);
+      -webkit-transform: skew(-30deg, 0deg);
+      transform: skew(-12deg, 0deg);
+      z-index: 800;
+      position: absolute;
+      right: 0;
+    }
+
+    .links-impositiva-right {
+      padding: 30px 0 30px 70px;
+      width: 64%;
+      height: 172px;
+       
+      }
+      .links-impositiva-right p{
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      .links-impositiva-right:before {
+        position: absolute;
+        right: 69px;
+        content: "";
+        top: 0px;
+        border-top: 37px solid #009F72;
+        border-left: 0 solid #009F72;
+        border-right: 16px solid #009F72;
+        border-bottom: 35px solid #009F72;
+        transform-origin: bottom left;
+        -ms-transform: skew(-30deg, 0deg);
+        -webkit-transform: skew(-30deg, 0deg);
+        transform: skew(-12deg, 0deg);
+      }
+
+    }
