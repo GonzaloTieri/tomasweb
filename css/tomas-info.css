@@ -9,18 +9,20 @@
 .jumbotron {
     background-color: white;
 }
-/*
-.info-tomas p {
-    font-weight: 200;
-}
-*/
+
 .info-tomas .search-box {
     border: 1px #FFF solid;
+    color: #FFF;
     background: none;
     width: 80%;
     border-radius: 15px;
     padding: 6px 5px 4px 20px;
 }
+
+.info-tomas .search-box:focus {
+
+    outline: none; 
+  }
 
 .info-tomas .btn-white {
     border: 1px #FFF solid;
@@ -49,19 +51,12 @@
     color: white;
 }
 
-.fas{
-   /* font-weight: 900;
-    color: white;
-    left: -40px;
+.info-tomas span {
+    right: 40px;
     position: relative;
-    */
 }
 
-.centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .info-tomas p.search-box {
     font-size: 16px;
@@ -77,8 +72,13 @@ p.news-title {
     color:#333;
     font-weight: 800;
     font-size: 26px;
-    line-height: 26px;
-    
+    line-height: 26px;   
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .galeria .news-title {
