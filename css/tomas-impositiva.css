@@ -1,5 +1,5 @@
 .encabezado-impositiva {
-  background: url(../img/home/transparencia-slide.png), url(../img/multiservicios/foto-encabezado.jpg);
+  background: url(../img/home/transparencia-slide.png), url(../img/info-impositiva/foto-encabezado.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,9 +23,6 @@
   color: #c9c9c9;
 }
 
-.card-body .col-1:hover {
-  color: #2C8D6B;
-}
 
 .card-small {
   line-height: 16px;

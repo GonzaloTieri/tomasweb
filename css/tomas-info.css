@@ -78,6 +78,13 @@ p.news-title {
     font-weight: 800;
     font-size: 26px;
     line-height: 26px;
+    
+}
+
+.galeria .news-title {
+    margin-top: -20%;
+    margin-bottom: 15%;
+    margin-left: 7%;
 }
 
 p.news-desc {

@@ -19,7 +19,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg fixed-top p-0">
-    <div class="container-fluid  navbar-dark bg-dark main-nav">
+    <div class="container-fluid navbar-dark bg-dark main-nav">
       <a class="navbar-brand pull mr-auto" href="#">
         <img src="img/home/logo-tomas.png" alt="">
       </a>
@@ -31,7 +31,7 @@
         <div class="section-one ml-auto">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">INICIO</a>
+                <a class="nav-link" href="index.html">INICIO</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -39,41 +39,44 @@
                 EMPRESA
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="empresa.html">EMPRESA</a>
-                <a class="dropdown-item" href="impositiva.html">INFO IMPOSITIVA</a>
+                <a class="dropdown-item " href="empresa.html">EMPRESA</a>
+                <a class="dropdown-item " href="impositiva.html">INFO IMPOSITIVA</a>
                 <a class="dropdown-item active" href="rrhh.html">RRHH</a>
                 <a class="dropdown-item" href="empresa.html">CONTACTO</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="multiservicios.html">MULTISERVICIOS</a>
+              <a class="nav-link" href="multiservicios.html">MULTISERVICIOS</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 INFO TOMÁS
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item " href="info.html">INFO</a>
-                <a class="dropdown-item " href="prensa.html">PRENSA</a>
+                <a class="dropdown-item" href="info.html">INFO</a>
+                <a class="dropdown-item" href="prensa.html">PRENSA</a>
               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link ac" href="sucursales.html">SUCURSALES</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link ac d-lg-none" href="#">ACCESO EXTRANET</a>
+            </li>
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-twitter-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-facebook-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-linkedin-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link px-0" href="#"><img src="img/home/ico-youtube-encabezado.png" alt=""></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#"><img src="img/home/ico-buscador-encabezado.png" alt=""></a>
             </li>
           </ul>
@@ -87,7 +90,7 @@
         </div>
       </div>
     </div>
-  </nav>    
+  </nav>   
 
   <div class="jumbotron jumbotron-fluid px-0 mx-0 pb-0 my-0">
     <div class="container-fluid px-0">
@@ -219,34 +222,32 @@
     </div>
       
      
-    <footer class="bg-dark p-lg-5">
+    <footer class="bg-dark p-5">
       <div class="row px-0 mx-0">
-          <div class="col-12 col-lg-3 text-center">
-            <img class=" rounded float-center " src="img/home/logo-tomas-pie.png" alt="">
-          </div>
-          <div class="col-12 col-lg-6 text-right">
-            <div class="row">
-              <div class="col-12 col-lg-6 text-center">
-                  <span class="text-white"><strong>Casa Central Carlos Casares</strong></span>
-              </div>
-              <div class="col-12 col-lg-6 text-center">
-                  <span class="text-white">San Luis 19 (02395) 451-011</span>
-              </div>
-            </div>
-            
-          </div>
-          <div class="col-12 col-lg-3 text-center text-lg-right">
-            <a href="" class="p-1"><img  src="img/home/ico-twitter-pie.png" alt=""></a>
-            <a href="" class="p-1"><img  src="img/home/ico-facebook-pie.png" alt=""></a>
-            <a href="" class="p-1"><img  src="img/home/ico-linkedin-pie.png" alt=""></a>
-            <a href="" class="p-1"><img  src="img/home/ico-youtube-pie.png" alt=""></a>
-            <img src="img/home/logos-pie.png" class="d-block mt-5 rounded float-center float-lg-right " alt="">
-          </div>
+        <div class="col-12 col-lg-6 text-center text-lg-left">
+          <img class=" rounded float-center " src="img/home/logo-tomas-pie.png" alt="">
         </div>
-      </footer>
+        <div class="col-12 col-lg-4 text-right">
+          <div class="row">
+            <div class="col-12 text-center">
+                <span class="text-white"><strong>Casa Central Carlos Casares</strong></span> 
+                <span class="text-white">San Luis 19 (02395) 451-011</span>
+            </div>
+            <div class="col-12 text-center d-block d-lg-none">
+                <span class="text-white d-block d-lg-none">San Luis 19 (02395) 451-011</span>
+            </div>
+          </div> 
+        </div>
+        <div class="col-12 col-lg-2 text-center">
+          <a href="" class="p-1"><img  src="img/home/ico-twitter-pie.png" alt=""></a>
+          <a href="" class="p-1"><img  src="img/home/ico-facebook-pie.png" alt=""></a>
+          <a href="" class="p-1"><img  src="img/home/ico-linkedin-pie.png" alt=""></a>
+          <a href="" class="p-1"><img  src="img/home/ico-youtube-pie.png" alt=""></a>
+          <img src="img/home/logos-pie.png" class="d-block mt-3 rounded mx-auto d-block float-lg-right " alt="">
+        </div>
+      </div>
+    </footer>
     
-    
-
 
   </div>
   
