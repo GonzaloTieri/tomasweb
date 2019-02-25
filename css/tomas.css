@@ -154,6 +154,9 @@ body {
 .text-green {
     color: #2C8D6B!important;
 }
+.text-grey {
+    color:#666;
+}
 .nav-link.text-green a{
     color: #2C8D6B;
 }
