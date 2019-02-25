@@ -160,8 +160,12 @@ body {
 .nav-link.text-green a{
     color: #2C8D6B;
 }
+
 .text-yellow {
     color: #f2b447;
+}
+.nav-link.text-green a{
+    color: #2C8D6B;
 }
 .back-green {
     background: #009f72;
@@ -314,7 +318,6 @@ area:hover {
     line-height: 22px;
     color: white;
 }
-
 .link:hover {
     text-decoration: none;
 }
@@ -334,6 +337,10 @@ area:hover {
     font-weight: 800;
     line-height: 36px;
     color: white;
+}
+.map {
+    position: absolute;
+    top: 190px;
 }
 
 @media (min-width: 992px) {
