@@ -421,14 +421,20 @@
         </div>
       </section>
 
-      <section class="lideres container-fluid py-4 pl-lg-5">
+      <section class="container-fluid p-0">
         <div class="row">
-          <div class="col m-lg-5">
-            <p class="titulo text-green" >Red Estratégica</p>
-            <p class="big w-50 font-weight-light ">
-                Contamos con una extensa red de servicios y logística ágil, dinámica y competitiva.
-                 Estamos en el corazón de la provincia de Buenos Aires
-            </p>
+          <div class="col">
+            <div class="map">
+              <p class="titulo text-green px-5" >Red Estratégica</p>
+              <p class="big w-25 font-weight-light px-5">
+                  Contamos con una extensa red de servicios y logística ágil, dinámica y competitiva.
+                  Estamos en el corazón de la provincia de Buenos Aires
+              </p>
+          </div>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1xLQCgZTvawksdh8TWji1szv5ZeOHVEWB" width="100%" height="600">
+              
+            </iframe>
+
           </div>
         </div>
         <div class="row">
@@ -445,12 +451,12 @@
             </div>
             <div class="col-12 col-lg-4 text-right">
               <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-left">
                     <span class="text-white"><strong>Casa Central Carlos Casares</strong></span> 
                     <span class="text-white">San Luis 19 (02395) 451-011</span>
                 </div>
-                <div class="col-12 text-center d-block d-lg-none">
-                    <span class="text-white d-block d-lg-none">San Luis 19 (02395) 451-011</span>
+                <div class="col-12 text-left">
+                    <span class="text-white">San Luis 19 (02395) 451-011</span>
                 </div>
               </div> 
             </div>
@@ -462,10 +468,18 @@
               <img src="img/home/logos-pie.png" class="d-block mt-3 rounded mx-auto d-block float-lg-right " alt="">
             </div>
           </div>
-          <div class="row copyright">
-            <div class="col-12">
-              <span>Copyright 2018 Tomás Hnos. Todos los derechos reservados. </span>
-              <span>Desarrollo: ATCI / Diseño: Estudio Demaro</span>
+          <div class="row copyright mt-3">
+            <div class="col-12 text-grey mt-2">
+
+              <div class="row">
+                <div class="col-md-6">
+                  <p>Copyright 2018 Tomás Hnos. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6">
+                  <p class="text-right">Desarrollo: ATCI / Diseño: Estudio Demaro</p>
+                </div>
+              </div>
+
             </div>
           </div>
           
@@ -474,7 +488,6 @@
     <!-- /div -->
   </div>
   
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -529,6 +542,7 @@
       slidesToShow: findBootstrapEnvironment(),
       slidesToScroll: findBootstrapEnvironment()
     });
+
   </script>
 </body>
 
