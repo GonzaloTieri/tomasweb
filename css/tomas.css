@@ -102,7 +102,6 @@ body {
     bottom: 0;
     left: 10%;
     height: 30%;
-    /*margin: auto;*/
 }
 .carousel-caption h3, .carousel-caption p {
 
@@ -118,13 +117,21 @@ body {
 .carousel-indicators li {
     height: 10px;
     width: 10px;
-    border: solid 2px white;
+    border: solid 2px #FFF;
     background: none;
     border-radius: 50%;
     display: inline-block;
 }
 .carousel-indicators .active{
-    background-color: #fff;
+    background-color: #FFF;
+}
+
+.carousel-inner-transparency:after {
+    width: 100%;
+    position: absolute;
+    height:  100%;
+    background: url(../img/home/transparencia-slide.png);
+    background-size: 100%;
 }
 .contents{
     display: contents;
@@ -290,9 +297,9 @@ area:hover {
     margin-left: auto;
 }
 .fecha-numero {
-    font-size: 81px;
+    font-size: 75px;
     font-weight: 700;
-    line-height: 81px;
+    line-height: 84px;
     margin-bottom: 0;
 }
 .fecha-mes {
@@ -339,12 +346,11 @@ area:hover {
     color: white;
 }
 .map {
-    height:540px;
+    height:550px;
     width:100%;
-    display:inline-block;
     overflow:hidden;
 }
-.map iframe{
+ .map-blured iframe{
     opacity: .3;
 }
 
