@@ -57,12 +57,12 @@ body {
 }
 .section-two {
     height: 100%;
-     width: 14%;
+    width: 110px;
     background: #525659;
     transform: skewX(-9deg);
     position: absolute;
     bottom: 0;
-    right: 0px;
+    right: -8px;
     z-index: 1;
     transition: width 0.5s;
   }
@@ -394,17 +394,6 @@ area:hover {
 .copyright {
     border-top: solid 1px whitesmoke;
 }
-/*
-.navbar-default .navbar-nav > li.dropdown:hover > a, 
-.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
-.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
-    background-color: rgb(231, 231, 231);
-    color: rgb(85, 85, 85);
-}
-li.dropdown:hover > .dropdown-menu {
-    display: block;
-}
-*/
 
 @media (min-width: 992px) {
     .carousel-indicators {
@@ -425,17 +414,16 @@ li.dropdown:hover > .dropdown-menu {
         top: 20%;
     }
     .section-one li, .section-two li {
-        padding: 10px 3px;
+        padding: 10px 0;
         border-top: none;
     }
     .section-one {
         height: 100%;
-        width: 80%;
+        width: 970px;
         position: relative;
         transform: skewX(-9deg);
         z-index: 1;
         transition: width 0.5s;
-        color: lightcoral;
     }
     .section-one:before {
         transform: skewX(9deg);
@@ -444,4 +432,23 @@ li.dropdown:hover > .dropdown-menu {
         transform: skewX(9deg);
     }
     
+}
+
+@media (min-width: 1200px) {
+    .section-one {
+        height: 100%;
+        width: 1020px;
+        position: relative;
+        transform: skewX(-9deg);
+        z-index: 1;
+        transition: width 0.5s;
+    }
+
+    .section-one li, .section-two li {
+        padding: 10px 4px;
+    }
+
+    .section-two {
+        width: 14%;
+    }
 }
