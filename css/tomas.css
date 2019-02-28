@@ -395,7 +395,14 @@ area:hover {
     border-top: solid 1px whitesmoke;
 }
 
+.image-map {
+    display: none;
+}
+
 @media (min-width: 992px) {
+    .image-map {
+        display: block;
+    }
     .carousel-indicators {
         bottom: 0;
     }
